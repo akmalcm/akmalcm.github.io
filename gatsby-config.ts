@@ -8,14 +8,14 @@ const config: GatsbyConfig = {
     // You can overwrite values here that are used for the SEO component
     // You can also add new values here to query them like usual
     // See all options: https://github.com/LekoArts/gatsby-themes/blob/main/themes/gatsby-theme-minimal-blog/gatsby-config.mjs
-    siteTitle: `Minimal Blog`,
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
-    siteHeadline: `Minimal Blog - Gatsby Theme from @lekoarts`,
-    siteUrl: `https://minimal-blog.lekoarts.de`,
-    siteDescription: `Typography driven, feature-rich blogging theme with minimal aesthetics. Includes tags/categories support and extensive features for code blocks such as live preview, line numbers, and line highlighting.`,
+    siteTitle: `akmalcm`,
+    siteTitleAlt: `akmalcm`,
+    siteHeadline: `akmalcm`,
+    siteUrl: `https://akmalcm.github.io`,
+    siteDescription: `akmalcm's personal blog`,
     siteImage: `/banner.jpg`,
     siteLanguage: `en`,
-    author: `@lekoarts_de`,
+    author: `@akmalcm`,
   },
   trailingSlash: `always`,
   plugins: [
@@ -25,22 +25,30 @@ const config: GatsbyConfig = {
       options: {
         navigation: [
           {
-            title: `Blog`,
-            slug: `/blog`,
-          },
-          {
             title: `About`,
             slug: `/about`,
+          },
+          {
+            title: `Skills`,
+            slug: `/skills`,
+          },
+          {
+            title: `Blog`,
+            slug: `/blog`,
           },
         ],
         externalLinks: [
           {
             name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
+            url: `https://twitter.com/akmalchemansor`,
           },
           {
-            name: `Homepage`,
-            url: `https://www.lekoarts.de?utm_source=minimal-blog&utm_medium=Starter`,
+            name: `Linkedin`,
+            url: `https://www.linkedin.com/in/muhammad-akmal-hakim-c-02a4388b/`,
+          },
+          {
+            name: `Github`,
+            url: `https://www.github.com/akmalcm`,
           },
         ],
       },
@@ -123,7 +131,7 @@ const config: GatsbyConfig = {
   }
 }`,
             output: `rss.xml`,
-            title: `Minimal Blog - @lekoarts/gatsby-theme-minimal-blog`,
+            title: `akmalcm`,
           },
         ],
       },
