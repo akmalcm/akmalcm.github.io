@@ -1,0 +1,3 @@
+User-agent: *
+
+sitemap: https://akmalcm.github.io/sitemap-index.xml
